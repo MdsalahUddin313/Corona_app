@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.corona_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".second2"></activity>
+        <activity android:name=".Dashboard_menus.situation_update" />
+        <activity android:name=".Dashboard_menus.test" />
+        <activity android:name=".Dashboard_menus.shopping" />
+        <activity android:name=".Dashboard_menus.tools" />
+        <activity android:name=".Dashboard_menus.food" />
+        <activity android:name=".Dashboard_menus.History_Of_Corona" />
+        <activity android:name=".Dashboard_menus.travel_activity" />
+        <activity android:name=".Dashboard_menus.protectyourself" />
+        <activity android:name=".second_activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

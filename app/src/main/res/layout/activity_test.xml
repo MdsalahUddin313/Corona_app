@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_menus.test">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="7dp"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Test Yourself"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="40dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/report_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:paddingTop="30dp"
+
+                android:paddingBottom="15dp"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:hint="Test Report"
+                android:layout_margin="25dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/clear_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="CLEAR"
+                android:textAlignment="textEnd"
+                android:gravity="end"
+                android:paddingTop="15dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="1 year to 20 year "
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="20 year to 39 year"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="40 year to 50 year "
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/Four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Up to 50 year"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you in quarantine?(if yes then another test should be start)"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/Five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Yes"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="No"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you any mild fever in Recent days?"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Yes"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/Eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="no"
+                tools:ignore="OnClick" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you any Dry cough in Recent days?"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/Nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Yes"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/Ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="no"
+                tools:ignore="OnClick" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you feel Shortness of breath in Recent days?"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/eleven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Yes"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="no"
+                tools:ignore="OnClick" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you have "
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/thirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Heart disease?"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/forteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Diabetes?"
+                tools:ignore="Lung disease?" />
+
+            <CheckBox
+                android:id="@+id/fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Lung disease?"
+                tools:ignore="Lung disease?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you visit any other country recent days?"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"></TextView>
+
+            <CheckBox
+                android:id="@+id/sixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Yes"
+                tools:ignore="OnClick" />
+
+            <CheckBox
+                android:id="@+id/seventeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="No"
+                tools:ignore="Lung disease?" />
+
+            <Button
+                android:id="@+id/submit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="29dp"
+
+                android:background="@android:color/holo_green_dark"
+                android:text="submit"
+                android:textColor="@android:color/background_light" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

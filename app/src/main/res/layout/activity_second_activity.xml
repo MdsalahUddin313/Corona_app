@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_activity">
+
+
+    <Button
+        android:id="@+id/Test_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Test"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Protection_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Protection"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/Test_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/situation_data_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Data"
+        android:layout_margin="15dp"
+        android:layout_toRightOf="@+id/Protection_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/History_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="History"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/Test_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Travel_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Travelr"
+        android:layout_toRightOf="@+id/History_id"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/Test_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Shopping_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Shopping"
+        android:layout_toRightOf="@+id/Travel_id"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/Test_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/Food_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Food"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/History_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/Tools_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Tools"
+        android:layout_toRightOf="@+id/Food_id"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Travel_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Prayer_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Pray"
+        android:layout_toRightOf="@+id/Tools_id"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/Travel_id"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

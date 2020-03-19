@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <Button
+            android:id="@+id/Test_yourself_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="Test_yourself"
+            android:layout_margin="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            />
+
+        <Button
+            android:id="@+id/Protect_yourself_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_toRightOf="@+id/Test_yourself_id"
+            android:text="Protect_yourself" />
+
+        <Button
+            android:id="@+id/Question_and_answer_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+
+            android:layout_margin="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_toRightOf="@+id/Protect_yourself_id"
+            android:text="Question_and_answer" />
+
+        <Button
+            android:id="@+id/Travel_advice_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/Question_and_answer_id"
+            android:layout_toRightOf="@+id/Situation_updates_id"
+            android:text="Travel_advice" />
+
+        <Button
+            android:id="@+id/History_of_corona_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/Question_and_answer_id"
+            android:text="History_of_corona" />
+
+        <Button
+            android:id="@+id/Situation_updates_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/Question_and_answer_id"
+            android:layout_toRightOf="@+id/History_of_corona_id"
+            android:text="Situation_updates" />
+
+        <Button
+            android:id="@+id/Myth_busters_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/History_of_corona_id"
+            android:text="Myth_busters" />
+        <Button
+            android:id="@+id/food_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/History_of_corona_id"
+            android:layout_toRightOf="@+id/Myth_busters_id"
+            android:text="Food" />
+        <Button
+            android:id="@+id/shopping_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/Travel_advice_id"
+            android:layout_toRightOf="@+id/food_id"
+            android:text="Shopping" />
+        <Button
+            android:id="@+id/transport_id"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_shape_button"
+            android:layout_below="@+id/food_id"
+            android:layout_toRightOf="@id/Myth_busters_id"
+            android:text="tools" />
+    </RelativeLayout>
+</RelativeLayout>
